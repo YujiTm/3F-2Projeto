@@ -3,7 +3,7 @@
 :root{
     --cor-de-fundo: #FFDBB5;
     --cor-primaria: #6C4E31;
-    --cor-secundária: #5f481f;
+    --cor-secundária: #96763f;
     --font: 'Nunito' sans-serif;
 }
 *{
@@ -21,13 +21,16 @@ body{
 header{
     background-color: var(--cor-primaria);
     text-align: center;
-   
+    /* Alinhamento do texto */
 }
 
 h1{
     color: var(--cor-de-fundo);
+    /* Cor da fonte */
     font-size: 2rem;
+    /* Tamanho da fonte */
     font-weight: 700; 
+    /* "Peso" da fonte */
 }
 
 nav{
@@ -37,14 +40,21 @@ nav{
 }
 
 nav a{
+    /* text-decoration serve para adicionar ou remover
+    uma decoração no texto */
     text-decoration: none;
     color: var(--cor-de-fundo);
+    /* Espaçamento externo */
     margin: 0 2rem 1rem 0;
     font-size: 1.2rem;
 }
+/* Links que estão dentro da tag nav, estilização para
+quando passa o mouse em cima */
 nav a:hover{
     text-decoration: underline;
+    /* Reduz o tamanho */
     transform: scale(0.9);
+    /* Cria uma transição com 0.5s para o transform */
     transition: transform 1.5s;
 }
 
@@ -58,6 +68,7 @@ footer{
     color: var(--cor-de-fundo);
     text-align: center;
 }
+
 
 .graficos-container{
     margin: 5rem;
